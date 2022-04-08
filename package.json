@@ -1,13 +1,15 @@
 {
   "name": "ember-ngrok",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Serve your Ember app with ngrok during development",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember",
+    "ngrok"
   ],
-  "repository": "",
+  "repository": "https://github.com/houseninjadojo/ember-ngrok",
   "license": "MIT",
-  "author": "",
+  "author": "House Ninja Engineering <engineering@houseninja.co>",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -26,8 +28,10 @@
     "test:ember-compatibility": "ember try:each"
   },
   "dependencies": {
+    "chalk": "4",
     "ember-cli-babel": "^7.26.11",
-    "ember-cli-htmlbars": "^6.0.1"
+    "ember-cli-htmlbars": "^6.0.1",
+    "ngrok": "^4.3.1"
   },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",

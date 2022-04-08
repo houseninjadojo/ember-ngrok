@@ -1,7 +1,7 @@
 ember-ngrok
 ==============================================================================
 
-[Short description of the addon.]
+Serve your Ember app with [ngrok](https://ngrok.com/) during development.
 
 
 Compatibility
